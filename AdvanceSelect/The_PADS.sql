@@ -4,3 +4,11 @@ SELECT CONCAT("There are a total of ", COUNT(Occupation),' ',LOWER(Occupation),'
 FROM OCCUPATIONS 
 GROUP BY Occupation
 ORDER BY total ;
+
+
+'''
+concat => รวมข้อความหลายๆอัน
+substring => ดึงตัวอักษรจากข้อมูล
+group by => รวมกลุ่มข้อมูล
+
+'''
